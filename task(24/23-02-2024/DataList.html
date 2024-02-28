@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+        body
+        {
+         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUUxcN25QY8uKeZlSnD2g8MuH7S4vGgbDKQ&usqp=CAU'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+         background-size: cover; /* This property ensures that the background image covers the entire body */
+         background-position: center; /* This property centers the background image */
+         background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    /* You can also add more styles or adjust the properties as needed */
+        }
+        label{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Select the table</h1>
+        <hr>
+        <pre>
+        <label for="row">Select Row</label>
+        <input list='lrow' name="row" id="row" type="text" placeholder="-select-">
+        <datalist id='lrow'>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+            <option>F</option>
+            <option>G</option>
+            <option>H</option>
+        </datalist>
+        <label for="col">Select Column</label>
+        <input list="digits" id="col" name="col" type="number" placeholder="-select-">
+        <datalist id="digits">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </datalist>
+        <a href="./RegSucces.html"><button>Book Now</button></a>
+        </pre>
+    </body>
+</html>

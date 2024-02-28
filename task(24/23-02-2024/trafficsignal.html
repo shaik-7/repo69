@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            #traffic{
+                outline:2px solid black;
+                border:5px solid black;
+                padding: 10px;
+                height: 450px;
+                width:100px;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                background-color: black;
+            }
+            #red,#yellow,#green{
+                width:80px;
+                height: 80px;
+                border-radius:50%;
+            }
+            #red{
+                background-color: red;
+            }
+            #yellow{
+                background-color: yellow;
+            }
+            #green{
+                background-color: green;
+            }
+            #stick{
+                border: 2px solid black;
+                padding: 5px;
+                outline:2px solid black;
+                height:180px;
+                width: 8px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <div id="traffic">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+        </div>
+        <div id="stick"></div>
+        </center>
+    </body>
+</html>
